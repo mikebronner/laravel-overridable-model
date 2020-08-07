@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GeneaLabs\\LaravelNovaCategories\\": "src/"
+            "GeneaLabs\\LaravelOverridableModel\\": "src/"
         }
     },
     "config": {

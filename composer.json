@@ -7,7 +7,7 @@
     ],
     "license": "MIT",
     "require": {
-        "illuminate/support": "^9.0",
+        "illuminate/support": "^10.0",
         "symfony/thanks": "^1.2"
     },
     "autoload": {

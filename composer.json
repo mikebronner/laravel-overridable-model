@@ -7,16 +7,28 @@
     ],
     "license": "MIT",
     "require": {
-        "illuminate/support": "^10.0|^11.0",
-        "symfony/thanks": "^1.2"
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "pestphp/pest": "^2.0|^3.0"
     },
     "autoload": {
         "psr-4": {
             "GeneaLabs\\LaravelOverridableModel\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "GeneaLabs\\LaravelOverridableModel\\Tests\\": "tests/"
+        }
+    },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
